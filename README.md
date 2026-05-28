@@ -1,6 +1,6 @@
 # Robot Suiveur de Ligne PID
 
-> Un système embarqué autonome combinant un asservissement par correction proportionnelle-dérivée et une interface utilisateur anthropomorphe.
+> Un système embarqué autonome combinant un asservissement par correction proportionnelle-dérivée et une interface utilisateur personnifiée.
 
 ---
 
@@ -25,7 +25,7 @@ Le robot intègre un réseau de capteurs optiques infrarouges afin de suivre une
 ### Régulation par Correction Proportionnelle-Dérivée
 Le déplacement repose sur une boucle de rétroaction. L'erreur de positionnement est calculée à partir de la moyenne pondérée de la valeur des capteurs actifs. 
 * **Composante Proportionnelle (Kp = 2) :** Assure une correction directe et réactive proportionnelle à l'écart mesuré.
-* **Composante Dérivée (Kd = 20) :** Anticipe les variations rapides de la courbe de la ligne. Une valeur élevée a été spécifiquement retenue pour amortir l'inertie du châssis et stabiliser le robot lors de l'approche de courbes à angle droit.
+* **Composante Dérivée (Kd = 20) :** Anticipe les variations rapides de la courbe de la ligne. Une valeur élevée a été spécifiquement retenue pour amortir l'inertie du châssis et stabiliser le robot lors de l'approche de courbes à angle droit (action anticipatrice accrue pour compenser le comportement quasi-binaire des capteurs).
 
 ### Comportement Hors-Ligne et Mémoire d'État
 Lorsque le robot quitte intégralement la ligne de guidage, le système bascule sur une logique de persistance. Il analyse le dernier état mémorisé des capteurs périphériques pour déterminer la direction de la sortie de piste. Le robot applique alors un couple moteur asymétrique inversé afin de pivoter sur son axe central jusqu'à la ré-interception du signal.
