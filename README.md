@@ -45,6 +45,12 @@ L'affichage sur l'écran LCD est indexé sur les cycles d'horloge du processeur 
 
 ---
 
+## Démonstration du code
+
+<img style="align-self: center;" width="338" height="350" alt="ezgif-63d568446552e736" src="https://github.com/user-attachments/assets/b8a0195d-776d-49cb-ae48-9215a569aed3" />
+
+---
+
 ## Équipe et Contributions
 
 * **Développement Logiciel & Architecture PID :** Mathis HUYNH, Noémie MOGIS
