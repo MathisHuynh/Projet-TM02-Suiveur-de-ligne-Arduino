@@ -10,6 +10,8 @@ Ce projet consiste en la conception et le développement d'un véhicule robotis�
 
 Le robot intègre un réseau de capteurs optiques infrarouges afin de suivre une trajectoire au sol matérialisée par une ligne noire. L'ajustement de la trajectoire est calculé en temps réel via un régulateur PID, tandis qu'un écran LCD monté sur le châssis externalise l'état interne du système à travers des expressions visuelles dynamiques.
 
+Pour plus de détail sur le reste du projet, veuillez vous référer au rapport.
+
 ---
 
 ## Architecture et Fonctionnalités du Système
@@ -45,6 +47,6 @@ L'affichage sur l'écran LCD est indexé sur les cycles d'horloge du processeur 
 
 ## Équipe et Contributions
 
-* **Développement Logiciel & Architecture PID :** Non spécifié
-* **Intégration Matérielle & Conception Électronique :** Non spécifié
-* **Débogage & Optimisation des Paramètres :** Non spécifié
+* **Développement Logiciel & Architecture PID :** Mathis HUYNH, Noémie MOGIS
+* **Intégration Matérielle & Conception Électronique :** Mathis HUYNH
+* **Débogage & Optimisation des Paramètres :** Mathis HUYNH, Noémie MOGIS
