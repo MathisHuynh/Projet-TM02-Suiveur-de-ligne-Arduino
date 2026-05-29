@@ -53,6 +53,6 @@ L'affichage sur l'écran LCD est indexé sur les cycles d'horloge du processeur 
 
 ## Équipe et Contributions
 
-* **Développement Logiciel & Architecture PID :** Mathis HUYNH, Noémie MOGIS
+* **Développement Logiciel & Architecture PID :** Mathis HUYNH
 * **Intégration Matérielle & Conception Électronique :** Mathis HUYNH
 * **Débogage & Optimisation des Paramètres :** Mathis HUYNH, Noémie MOGIS
